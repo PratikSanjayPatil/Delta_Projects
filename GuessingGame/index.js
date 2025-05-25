@@ -13,7 +13,9 @@ while(true){
     if(guess == random){
         console.log("Conrats!, You win the game!");
         break;
-    }else{
-        guess = prompt("Your guess is wrong, Please try again: ");
+    }else if(guess < random){
+        guess = prompt("It's smaller than random number Please try again ");
+    }else if(guess > random){
+        guess = prompt("It's greater than random number Please try again ");
     }
 }
