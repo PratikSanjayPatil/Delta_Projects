@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.red{
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+
+.green{
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+
+.yellow{
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+
+.purple{
+    background-color: purple;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+    margin: 0.7rem;
+}
+
+.splash{
+    background-color: white;
+}
+
+.userPress{
+    background-color: greenyellow;
+}
